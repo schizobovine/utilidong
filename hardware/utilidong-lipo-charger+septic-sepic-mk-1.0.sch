@@ -5995,8 +5995,8 @@ grid 2.54 mm, diameter 6 mm</description>
 <wire x1="-1.651" y1="1.524" x2="-1.27" y2="1.524" width="0.1524" layer="21"/>
 <wire x1="-1.651" y1="1.524" x2="-1.651" y2="1.905" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="2.794" width="0.1524" layer="21"/>
-<pad name="-" x="1.27" y="0" drill="0.9" diameter="1.6002" shape="octagon"/>
-<pad name="+" x="-1.27" y="0" drill="0.9" diameter="1.524" shape="square"/>
+<pad name="-" x="1.27" y="0" drill="0.9" diameter="1.5" shape="octagon"/>
+<pad name="+" x="-1.27" y="0" drill="0.9" diameter="1.5" shape="octagon"/>
 <text x="0" y="2.978" size="0.5" layer="25" font="vector" ratio="12" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.978" size="0.5" layer="27" font="vector" ratio="12" align="top-center">&gt;VALUE</text>
 <wire x1="0.762" y1="-1.524" x2="0.762" y2="1.524" width="0.1524" layer="21" curve="-90"/>
@@ -9624,23 +9624,6 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <text x="-2.6416" y="0" size="0.8128" layer="21" font="vector" ratio="12" align="center-left">&gt;Value</text>
 <wire x1="2.032" y1="1.143" x2="2.032" y2="-1.143" width="0.254" layer="21"/>
 </package>
-<package name="SMC">
-<description>&lt;b&gt;DIODE&lt;/b&gt;</description>
-<wire x1="-3.5606" y1="3.105" x2="3.5606" y2="3.105" width="0.1016" layer="21"/>
-<wire x1="-3.5606" y1="-3.105" x2="3.5606" y2="-3.105" width="0.1016" layer="21"/>
-<wire x1="-3.5606" y1="-3.105" x2="-3.5606" y2="3.105" width="0.1016" layer="51"/>
-<wire x1="3.5606" y1="-3.105" x2="3.5606" y2="3.105" width="0.1016" layer="51"/>
-<wire x1="0.543" y1="1" x2="-0.83" y2="0" width="0.2032" layer="21"/>
-<wire x1="-0.83" y1="0" x2="0.543" y2="-1" width="0.2032" layer="21"/>
-<wire x1="0.543" y1="-1" x2="0.543" y2="1" width="0.2032" layer="21"/>
-<smd name="C" x="-3.7" y="0" dx="2.8" dy="3.8" layer="1"/>
-<smd name="A" x="3.7" y="0" dx="2.8" dy="3.8" layer="1"/>
-<text x="-3.459" y="3.359" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.459" y="-4.629" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-4.094" y1="-1.0922" x2="-3.5606" y2="1.0922" layer="51"/>
-<rectangle x1="3.5606" y1="-1.0922" x2="4.094" y2="1.0922" layer="51"/>
-<rectangle x1="-2.1" y1="-3.1" x2="-0.85" y2="3.1" layer="21"/>
-</package>
 <package name="DO35-7">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 diameter 2 mm, horizontal, grid 7.62 mm</description>
@@ -10219,9 +10202,13 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 <wire x1="2.05" y1="2.05" x2="2.05" y2="-2.05" width="0.1524" layer="39"/>
 <wire x1="2.05" y1="-2.05" x2="-2.05" y2="-2.05" width="0.1524" layer="39"/>
 <smd name="2" x="1.4" y="0" dx="1.2" dy="3.7" layer="1"/>
-<text x="0" y="2.1" size="0.4064" layer="21" font="vector" ratio="12" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2" size="0.4064" layer="27" font="vector" ratio="12" align="top-center">&gt;VALUE</text>
+<text x="0" y="2.25" size="0.6" layer="21" font="vector" ratio="12" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.25" size="0.6" layer="27" font="vector" ratio="12" align="top-center">&gt;VALUE</text>
 <circle x="-0.4" y="1.5" radius="0.2" width="0" layer="21"/>
+<wire x1="-2.2" y1="2.05" x2="-2.2" y2="-2.05" width="0.1524" layer="21"/>
+<wire x1="-2.2" y1="-2.05" x2="2.2" y2="-2.05" width="0.1524" layer="21"/>
+<wire x1="2.2" y1="-2.05" x2="2.2" y2="2.05" width="0.1524" layer="21"/>
+<wire x1="2.2" y1="2.05" x2="-2.2" y2="2.05" width="0.1524" layer="21"/>
 </package>
 <package name="INDUCTOR-AXIAL-PTH-7.62MM">
 <pad name="P$1" x="-3.81" y="0" drill="1.016" diameter="1.9304" shape="square"/>
@@ -10276,16 +10263,6 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 <circle x="0" y="0" radius="3" width="0.1524" layer="21"/>
 <text x="0" y="1.4" size="0.6096" layer="25" font="vector" ratio="12" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.4" size="0.6096" layer="27" font="vector" ratio="12" rot="R180" align="bottom-center">&gt;VALUE</text>
-</package>
-<package name="L0805">
-<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.1524" layer="39"/>
-<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.1524" layer="39"/>
-<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.1524" layer="39"/>
-<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.1524" layer="39"/>
-<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="-1.778" y="0" size="0.4064" layer="25" font="vector" ratio="12" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="1.778" y="0" size="0.4064" layer="27" font="vector" ratio="12" rot="R90" align="top-center">&gt;VALUE</text>
 </package>
 <package name="DIODE-ZENER">
 <wire x1="-1.778" y1="0.762" x2="1.778" y2="0.762" width="0.2032" layer="21"/>
@@ -10400,6 +10377,56 @@ Basic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16</
 <wire x1="0.5" y1="0.7" x2="0.5" y2="-0.7" width="0.1524" layer="21"/>
 <wire x1="0.5" y1="0.7" x2="1" y2="0.7" width="0.1524" layer="21"/>
 <wire x1="0" y1="-0.7" x2="0.5" y2="-0.7" width="0.1524" layer="21"/>
+</package>
+<package name="SMC">
+<description>&lt;b&gt;DIODE&lt;/b&gt;</description>
+<wire x1="-3.56" y1="-3.1" x2="3.56" y2="-3.1" width="0.1524" layer="21"/>
+<wire x1="-3.56" y1="-3.1" x2="-3.56" y2="3.1" width="0.1524" layer="51"/>
+<wire x1="3.56" y1="-3.1" x2="3.56" y2="3.1" width="0.1524" layer="51"/>
+<smd name="C" x="3.7" y="0" dx="2.8" dy="3.8" layer="1"/>
+<smd name="A" x="-3.7" y="0" dx="2.8" dy="3.8" layer="1"/>
+<text x="0" y="3.35" size="0.8" layer="25" font="vector" ratio="12" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.35" size="0.8" layer="27" font="vector" ratio="12" align="top-center">&gt;VALUE</text>
+<wire x1="-3.56" y1="-3.1" x2="3.56" y2="-3.1" width="0.1524" layer="51"/>
+<wire x1="-3.56" y1="3.1" x2="3.56" y2="3.1" width="0.1524" layer="51"/>
+<wire x1="-3.56" y1="3.1" x2="3.56" y2="3.1" width="0.1524" layer="21"/>
+<wire x1="3.56" y1="3.1" x2="3.56" y2="2.1" width="0.1524" layer="21"/>
+<wire x1="-3.56" y1="3.1" x2="-3.56" y2="2.1" width="0.1524" layer="21"/>
+<wire x1="-3.56" y1="-3.1" x2="-3.56" y2="-2.1" width="0.1524" layer="21"/>
+<wire x1="3.56" y1="-3.1" x2="3.56" y2="-2.1" width="0.1524" layer="21"/>
+<wire x1="1.5" y1="2" x2="1.5" y2="0" width="0.5" layer="21"/>
+<wire x1="1.5" y1="0" x2="1.5" y2="-2" width="0.5" layer="21"/>
+<wire x1="1.5" y1="0" x2="-1.5" y2="2" width="0.5" layer="21"/>
+<wire x1="1.5" y1="0" x2="-1.5" y2="-2" width="0.5" layer="21"/>
+<wire x1="-1.5" y1="-2" x2="-1.5" y2="2" width="0.5" layer="21"/>
+</package>
+<package name="L0805">
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<text x="-1.9" y="0" size="0.4064" layer="25" font="vector" ratio="12" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="1.9" y="0" size="0.4064" layer="27" font="vector" ratio="12" rot="R90" align="top-center">&gt;VALUE</text>
+<wire x1="-1.8" y1="-0.95" x2="-1.8" y2="0.95" width="0.1524" layer="21"/>
+<wire x1="1.8" y1="-0.95" x2="1.8" y2="0.95" width="0.1524" layer="21"/>
+<wire x1="-1.8" y1="0.95" x2="1.8" y2="0.95" width="0.1524" layer="21"/>
+<wire x1="-1.8" y1="-0.95" x2="1.8" y2="-0.95" width="0.1524" layer="21"/>
+</package>
+<package name="RLB0712">
+<circle x="0" y="0" radius="3.35" width="0.1524" layer="21"/>
+<pad name="1" x="-1.5" y="0" drill="1" diameter="1.7" shape="octagon"/>
+<pad name="2" x="1.5" y="0" drill="1" diameter="1.7" shape="octagon"/>
+<text x="0" y="3.5" size="0.8" layer="25" font="vector" ratio="12" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.5" size="0.7" layer="27" font="vector" ratio="12" align="top-center">&gt;VALUE</text>
+</package>
+<package name="MURATA-1100R">
+<pad name="P$1" x="-1" y="0" drill="0.8" diameter="1.4" shape="octagon"/>
+<pad name="P$2" x="1" y="0" drill="0.8" diameter="1.4" shape="octagon"/>
+<circle x="0" y="0" radius="2.5762" width="0.2" layer="21"/>
+<text x="0" y="3" size="0.8" layer="25" font="vector" ratio="12" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3" size="0.7" layer="27" font="vector" ratio="12" align="top-center">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -15226,6 +15253,24 @@ SDR0403-560KL - 56uH, 10%, 500mA RMS/740mA peak</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="RLB0712" package="RLB0712">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MURATA-1100R" package="MURATA-1100R">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="VOUT">
@@ -15413,7 +15458,7 @@ Production Part - 8199
 <part name="C6" library="A_butts" deviceset="CAPACITOR-POLARIZED" device="E2.5-6" value="22uF"/>
 <part name="C7" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="C0805" value="1uF"/>
 <part name="C8" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="C0805" value="1uF"/>
-<part name="D1" library="A_butts" deviceset="DIODE-SCHOTTKY" device="MBRA140" value="MBRA140"/>
+<part name="D1" library="A_butts" deviceset="DIODE-SCHOTTKY" device="SMA" value="MBRA140"/>
 <part name="L1" library="A_butts" deviceset="INDUCTOR" device="TAIYO-YUDEN-40XX" value="22uH"/>
 <part name="L2" library="A_butts" deviceset="INDUCTOR" device="TAIYO-YUDEN-40XX" value="22uH"/>
 <part name="GND5" library="A_butts" deviceset="GND" device=""/>
@@ -15816,6 +15861,17 @@ Production Part - 8199
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,129.54,134.62,IC2,VDD,5V,,,"/>
+<approved hash="104,1,129.54,119.38,IC2,VSS,GND,,,"/>
+<approved hash="208,1,175.26,175.26,VBATT+,sup,,,,"/>
+<approved hash="208,1,83.82,129.54,VBATT+,sup,,,,"/>
+<approved hash="208,1,165.1,134.62,VBATT+,out,,,,"/>
+<approved hash="208,1,167.64,137.16,VBATT+,sup,,,,"/>
+<approved hash="208,1,71.12,129.54,VBATT+,sup,,,,"/>
+<approved hash="208,1,53.34,66.04,VBATT+,sup,,,,"/>
+<approved hash="113,1,59.2455,159.237,USB1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
