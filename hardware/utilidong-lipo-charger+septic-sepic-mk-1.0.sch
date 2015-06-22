@@ -1750,51 +1750,26 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="-3.81" y1="-1.27" x2="-3.81" y2="1.27" width="0.127" layer="51"/>
 </package>
 <package name="SOT95P280X145-5N">
-<smd name="1" x="-1.2954" y="0.9398" dx="1.27" dy="0.5588" layer="1"/>
-<smd name="2" x="-1.2954" y="0" dx="1.27" dy="0.5588" layer="1"/>
-<smd name="3" x="-1.2954" y="-0.9398" dx="1.27" dy="0.5588" layer="1"/>
-<smd name="4" x="1.2954" y="-0.9398" dx="1.27" dy="0.5588" layer="1"/>
-<smd name="5" x="1.2954" y="0.9398" dx="1.27" dy="0.5588" layer="1"/>
-<wire x1="-0.6096" y1="-1.5494" x2="0.6096" y2="-1.5494" width="0.1524" layer="21"/>
-<wire x1="0.8636" y1="-0.3302" x2="0.8636" y2="0.3302" width="0.1524" layer="21"/>
-<wire x1="0.6096" y1="1.5494" x2="0.3048" y2="1.5494" width="0.1524" layer="21"/>
-<wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0.1524" layer="21"/>
-<wire x1="-0.3048" y1="1.5494" x2="-0.6096" y2="1.5494" width="0.1524" layer="21"/>
-<wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0" layer="21" curve="-180"/>
-<wire x1="-0.8636" y1="-1.5494" x2="0.8636" y2="-1.5494" width="0.1524" layer="51"/>
-<wire x1="0.8636" y1="-1.5494" x2="0.8636" y2="-1.1938" width="0.1524" layer="51"/>
-<wire x1="0.8636" y1="-1.1938" x2="0.8636" y2="-0.7112" width="0.1524" layer="51"/>
-<wire x1="0.8636" y1="-0.7112" x2="0.8636" y2="0.7112" width="0.1524" layer="51"/>
-<wire x1="0.8636" y1="1.5494" x2="0.3048" y2="1.5494" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0.1524" layer="51"/>
-<wire x1="-0.3048" y1="1.5494" x2="-0.8636" y2="1.5494" width="0.1524" layer="51"/>
-<wire x1="-0.8636" y1="1.5494" x2="-0.8636" y2="1.1938" width="0.1524" layer="51"/>
-<wire x1="-0.8636" y1="1.1938" x2="-0.8636" y2="0.7112" width="0.1524" layer="51"/>
-<wire x1="-0.8636" y1="0.7112" x2="-0.8636" y2="0.254" width="0.1524" layer="51"/>
-<wire x1="-0.8636" y1="0.254" x2="-0.8636" y2="-0.254" width="0.1524" layer="51"/>
-<wire x1="-0.8636" y1="-0.254" x2="-0.8636" y2="-0.7112" width="0.1524" layer="51"/>
-<wire x1="-0.8636" y1="1.1938" x2="-1.4986" y2="1.1938" width="0.1524" layer="51"/>
-<wire x1="-1.4986" y1="1.1938" x2="-1.4986" y2="0.7112" width="0.1524" layer="51"/>
-<wire x1="-1.4986" y1="0.7112" x2="-0.8636" y2="0.7112" width="0.1524" layer="51"/>
-<wire x1="-0.8636" y1="0.254" x2="-1.4986" y2="0.254" width="0.1524" layer="51"/>
-<wire x1="-1.4986" y1="0.254" x2="-1.4986" y2="-0.254" width="0.1524" layer="51"/>
-<wire x1="-1.4986" y1="-0.254" x2="-0.8636" y2="-0.254" width="0.1524" layer="51"/>
-<wire x1="-0.8636" y1="-1.5494" x2="-0.8636" y2="-1.1938" width="0.1524" layer="51"/>
-<wire x1="-0.8636" y1="-1.1938" x2="-0.8636" y2="-0.7112" width="0.1524" layer="51"/>
-<wire x1="-0.8636" y1="-0.7112" x2="-1.4986" y2="-0.7112" width="0.1524" layer="51"/>
-<wire x1="-1.4986" y1="-0.7112" x2="-1.4986" y2="-1.1938" width="0.1524" layer="51"/>
-<wire x1="-1.4986" y1="-1.1938" x2="-0.8636" y2="-1.1938" width="0.1524" layer="51"/>
-<wire x1="0.8636" y1="-1.1938" x2="1.4986" y2="-1.1938" width="0.1524" layer="51"/>
-<wire x1="1.4986" y1="-1.1938" x2="1.4986" y2="-0.7112" width="0.1524" layer="51"/>
-<wire x1="1.4986" y1="-0.7112" x2="0.8636" y2="-0.7112" width="0.1524" layer="51"/>
-<wire x1="0.8636" y1="1.5494" x2="0.8636" y2="1.1938" width="0.1524" layer="51"/>
-<wire x1="0.8636" y1="1.1938" x2="0.8636" y2="0.7112" width="0.1524" layer="51"/>
-<wire x1="0.8636" y1="0.7112" x2="1.4986" y2="0.7112" width="0.1524" layer="51"/>
-<wire x1="1.4986" y1="0.7112" x2="1.4986" y2="1.1938" width="0.1524" layer="51"/>
-<wire x1="1.4986" y1="1.1938" x2="0.8636" y2="1.1938" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0" layer="51" curve="-180"/>
-<text x="0" y="1.8288" size="0.8128" layer="25" font="vector" ratio="12" rot="SR0" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.905" size="0.8128" layer="27" font="vector" ratio="12" rot="R180" align="bottom-center">&gt;VALUE</text>
+<smd name="1" x="-1.4" y="0.95" dx="1.3" dy="0.55" layer="1"/>
+<smd name="2" x="-1.4" y="0" dx="1.3" dy="0.55" layer="1"/>
+<smd name="3" x="-1.4" y="-0.95" dx="1.3" dy="0.55" layer="1"/>
+<smd name="4" x="1.4" y="-0.95" dx="1.3" dy="0.55" layer="1"/>
+<smd name="5" x="1.4" y="0.95" dx="1.3" dy="0.55" layer="1"/>
+<wire x1="-0.9" y1="-1.55" x2="0.9" y2="-1.55" width="0.1524" layer="21"/>
+<wire x1="0.9" y1="-0.49" x2="0.9" y2="0.49" width="0.1524" layer="21"/>
+<wire x1="0.9" y1="1.55" x2="-0.9" y2="1.55" width="0.1524" layer="21"/>
+<wire x1="-0.9" y1="-1.55" x2="0.9" y2="-1.55" width="0.1524" layer="51"/>
+<wire x1="0.9" y1="1.55" x2="-0.9" y2="1.55" width="0.1524" layer="51"/>
+<text x="0" y="1.75" size="0.8128" layer="25" font="vector" ratio="12" rot="SR0" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.75" size="0.8128" layer="27" font="vector" ratio="12" rot="R180" align="bottom-center">&gt;VALUE</text>
+<wire x1="-0.9" y1="1.55" x2="-0.9" y2="-1.55" width="0.1524" layer="51"/>
+<wire x1="0.9" y1="1.55" x2="0.9" y2="-1.55" width="0.1524" layer="51"/>
+<wire x1="-0.9" y1="1.55" x2="-0.9" y2="1.41" width="0.1524" layer="21"/>
+<wire x1="0.9" y1="1.55" x2="0.9" y2="1.41" width="0.1524" layer="21"/>
+<wire x1="-0.9" y1="0.495" x2="-0.9" y2="0.455" width="0.1524" layer="21"/>
+<wire x1="-0.9" y1="-0.495" x2="-0.9" y2="-0.455" width="0.1524" layer="21"/>
+<wire x1="-0.9" y1="-1.55" x2="-0.9" y2="-1.41" width="0.1524" layer="21"/>
+<wire x1="0.9" y1="-1.55" x2="0.9" y2="-1.41" width="0.1524" layer="21"/>
 </package>
 <package name="R0402">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
@@ -4593,7 +4568,7 @@ High-power, low thermal resistance package.</description>
 <smd name="3" x="0" y="1" dx="1" dy="1.2" layer="1"/>
 <smd name="2" x="0.95" y="-1" dx="1" dy="1.2" layer="1"/>
 <smd name="1" x="-0.95" y="-1" dx="1" dy="1.2" layer="1"/>
-<text x="0" y="1.75" size="0.35" layer="25" font="vector" ratio="12" align="bottom-center">&gt;NAME</text>
+<text x="0" y="1.75" size="0.7" layer="25" font="vector" ratio="12" align="bottom-center">&gt;NAME</text>
 <rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
@@ -4602,6 +4577,7 @@ High-power, low thermal resistance package.</description>
 <wire x1="0.68" y1="0.65" x2="1.46" y2="0.65" width="0.1524" layer="21"/>
 <wire x1="1.46" y1="-0.22" x2="1.46" y2="0.65" width="0.1524" layer="21"/>
 <wire x1="-0.27" y1="-0.65" x2="0.27" y2="-0.65" width="0.1524" layer="21"/>
+<text x="0" y="-1.75" size="0.6" layer="27" font="vector" ratio="12" align="top-center">&gt;VALUE</text>
 </package>
 <package name="TO-92">
 <description>&lt;b&gt;TO 92&lt;/b&gt;</description>
@@ -6049,20 +6025,6 @@ grid 2 mm, diameter 4 mm</description>
 <wire x1="-1.4" y1="-0.9" x2="-1.9" y2="-0.4" width="0.1524" layer="21"/>
 <wire x1="-1" y1="1.55" x2="-1" y2="1.15" width="0.1524" layer="21"/>
 <wire x1="-1.2" y1="1.35" x2="-0.8" y2="1.35" width="0.1524" layer="21"/>
-</package>
-<package name="E2-5">
-<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
-grid 2.032 mm, diameter 5 mm</description>
-<wire x1="-1.27" y1="1.524" x2="-0.762" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="1.27" x2="-1.016" y2="1.778" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
-<pad name="-" x="1.016" y="0" drill="0.8128" diameter="1.4224" shape="octagon"/>
-<pad name="+" x="-1.016" y="0" drill="0.8128" diameter="1.4224" shape="square"/>
-<text x="0" y="2.667" size="0.4064" layer="25" font="vector" ratio="12" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.667" size="0.4064" layer="27" font="vector" ratio="12" align="top-center">&gt;VALUE</text>
-<wire x1="-0.1016" y1="0.889" x2="-0.1016" y2="-0.889" width="0.1524" layer="21"/>
-<wire x1="0.1016" y1="0" x2="0.254" y2="-0.889" width="0.1524" layer="21" curve="22.479434"/>
-<wire x1="0.1016" y1="0" x2="0.254" y2="0.889" width="0.1524" layer="21" curve="-21.16126"/>
 </package>
 <package name="E22-10">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -10303,11 +10265,11 @@ Basic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16</
 <package name="SOD123-ZENER">
 <smd name="C" x="1.9" y="0" dx="1.4" dy="1.4" layer="1"/>
 <smd name="A" x="-1.9" y="0" dx="1.4" dy="1.4" layer="1"/>
-<text x="0" y="0.889" size="0.4064" layer="25" font="vector" ratio="12" align="bottom-center">&gt;NAME</text>
-<wire x1="2.032" y1="-0.889" x2="-2.032" y2="-0.889" width="0.1524" layer="39"/>
-<wire x1="-2.032" y1="-0.889" x2="-2.032" y2="0.889" width="0.1524" layer="39"/>
-<wire x1="-2.032" y1="0.889" x2="2.032" y2="0.889" width="0.1524" layer="39"/>
-<wire x1="2.032" y1="0.889" x2="2.032" y2="-0.889" width="0.1524" layer="39"/>
+<text x="0" y="1" size="0.6" layer="25" font="vector" ratio="12" align="bottom-center">&gt;NAME</text>
+<wire x1="2" y1="-0.9" x2="-2" y2="-0.9" width="0.1524" layer="39"/>
+<wire x1="-2" y1="-0.9" x2="-2" y2="0.9" width="0.1524" layer="39"/>
+<wire x1="-2" y1="0.9" x2="2" y2="0.9" width="0.1524" layer="39"/>
+<wire x1="2" y1="0.9" x2="2" y2="-0.9" width="0.1524" layer="39"/>
 <wire x1="0.5" y1="-0.435" x2="0.5" y2="0" width="0.1524" layer="21"/>
 <wire x1="0.5" y1="0" x2="0.5" y2="0.435" width="0.1524" layer="21"/>
 <wire x1="0.5" y1="0" x2="-0.5" y2="-0.635" width="0.1524" layer="21"/>
@@ -10315,6 +10277,11 @@ Basic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16</
 <wire x1="-0.5" y1="0.635" x2="0.5" y2="0" width="0.1524" layer="21"/>
 <wire x1="0.5" y1="0.435" x2="0.8" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="0.5" y1="-0.435" x2="0.2" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-2.8" y1="0.9" x2="2.8" y2="0.9" width="0.1524" layer="21"/>
+<wire x1="-2.8" y1="-0.9" x2="2.8" y2="-0.9" width="0.1524" layer="21"/>
+<text x="0" y="-1" size="0.5" layer="27" font="vector" ratio="12" align="top-center">&gt;VALUE</text>
+<wire x1="-2.8" y1="0.9" x2="-2.8" y2="-0.9" width="0.1524" layer="21"/>
+<wire x1="2.8" y1="0.9" x2="2.8" y2="-0.9" width="0.1524" layer="21"/>
 </package>
 <package name="SOD323-ZENNER">
 <wire x1="0.48" y1="-0.5" x2="0.48" y2="0" width="0.1524" layer="21"/>
@@ -10427,6 +10394,20 @@ Basic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16</
 <circle x="0" y="0" radius="2.5762" width="0.2" layer="21"/>
 <text x="0" y="3" size="0.8" layer="25" font="vector" ratio="12" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3" size="0.7" layer="27" font="vector" ratio="12" align="top-center">&gt;VALUE</text>
+</package>
+<package name="E2-5">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+grid 2.032 mm, diameter 5 mm</description>
+<wire x1="-1.27" y1="1.524" x2="-0.762" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="1.27" x2="-1.016" y2="1.778" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
+<pad name="-" x="1" y="0" drill="0.8" diameter="1.4" shape="octagon"/>
+<pad name="+" x="-1" y="0" drill="0.8" diameter="1.4" shape="octagon"/>
+<text x="0" y="2.667" size="0.4064" layer="25" font="vector" ratio="12" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.667" size="0.4064" layer="27" font="vector" ratio="12" align="top-center">&gt;VALUE</text>
+<wire x1="-0.1016" y1="0.889" x2="-0.1016" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="0.1016" y1="0" x2="0.254" y2="-0.889" width="0.1524" layer="21" curve="22.479434"/>
+<wire x1="0.1016" y1="0" x2="0.254" y2="0.889" width="0.1524" layer="21" curve="-21.16126"/>
 </package>
 </packages>
 <symbols>
@@ -15425,11 +15406,8 @@ Production Part - 8199
 <part name="GND4" library="A_butts" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="A_butts" deviceset="5V" device=""/>
 <part name="GND1" library="A_butts" deviceset="GND" device=""/>
-<part name="C2" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="C1206" value="10uF"/>
-<part name="C1" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="C0805" value="100nF"/>
-<part name="GND6" library="A_butts" deviceset="GND" device=""/>
+<part name="C1" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="C0805" value="4.7uF"/>
 <part name="SUPPLY7" library="A_butts" deviceset="5V" device=""/>
-<part name="SUPPLY8" library="A_butts" deviceset="5V" device=""/>
 <part name="SUPPLY4" library="A_butts" deviceset="5V" device=""/>
 <part name="GND8" library="A_butts" deviceset="GND" device=""/>
 <part name="CHARGE" library="A_butts" deviceset="LED" device="1206"/>
@@ -15443,18 +15421,14 @@ Production Part - 8199
 <part name="GND10" library="A_butts" deviceset="GND" device=""/>
 <part name="R5" library="A_butts" deviceset="RESISTOR" device="R0805" value="10k"/>
 <part name="U$3" library="A_butts" deviceset="VBATT+" device=""/>
-<part name="C4" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="C1206" value="10uF"/>
-<part name="GND11" library="A_butts" deviceset="GND" device=""/>
-<part name="U$4" library="A_butts" deviceset="VBATT+" device=""/>
 <part name="OUT" library="A_butts" deviceset="M02" device="PTH-CENTERED-R+"/>
-<part name="C3" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="C0805" value="100nF"/>
+<part name="C3" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="C0805" value="4.7uF"/>
 <part name="U$6" library="A_butts" deviceset="VBATT+" device=""/>
 <part name="GND2" library="A_butts" deviceset="GND" device=""/>
 <part name="GND3" library="A_butts" deviceset="GND" device=""/>
 <part name="IC1" library="A_butts" deviceset="LT1610" device="SOICN8" value="LT1610"/>
 <part name="R1" library="A_butts" deviceset="RESISTOR" device="R0805" value="1M"/>
 <part name="R2" library="A_butts" deviceset="RESISTOR" device="R0805" value="604k"/>
-<part name="C5" library="A_butts" deviceset="CAPACITOR-POLARIZED" device="E2.5-6" value="22uF"/>
 <part name="C6" library="A_butts" deviceset="CAPACITOR-POLARIZED" device="E2.5-6" value="22uF"/>
 <part name="C7" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="C0805" value="1uF"/>
 <part name="C8" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="C0805" value="1uF"/>
@@ -15470,10 +15444,11 @@ Production Part - 8199
 <part name="U$5" library="A_butts" deviceset="VOUT" device=""/>
 <part name="U$10" library="A_butts" deviceset="VBATT+" device=""/>
 <part name="D2" library="A_butts" deviceset="DIODE-SCHOTTKY" device="MBRA140" value="MBRA140"/>
-<part name="ZD1" library="A_butts" deviceset="DIODE-ZENER" device="SOT23" value="10V"/>
+<part name="ZD1" library="A_butts" deviceset="DIODE-ZENER" device="SOD123" value="10V"/>
 <part name="SUPPLY6" library="A_butts" deviceset="5V" device=""/>
 <part name="SUPPLY9" library="A_butts" deviceset="VIN" device=""/>
 <part name="D3" library="A_butts" deviceset="DIODE-SCHOTTKY" device="MBRA140" value="MBRA140"/>
+<part name="C5" library="A_butts" deviceset="CAPACITOR-CERAMIC" device="C0805" value="10uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -15487,11 +15462,8 @@ Production Part - 8199
 <instance part="GND4" gate="1" x="66.04" y="147.32"/>
 <instance part="SUPPLY3" gate="G$1" x="66.04" y="165.1"/>
 <instance part="GND1" gate="1" x="45.72" y="111.76"/>
-<instance part="C2" gate="G$1" x="58.42" y="121.92"/>
 <instance part="C1" gate="G$1" x="45.72" y="121.92"/>
-<instance part="GND6" gate="1" x="58.42" y="111.76"/>
 <instance part="SUPPLY7" gate="G$1" x="45.72" y="129.54"/>
-<instance part="SUPPLY8" gate="G$1" x="58.42" y="129.54"/>
 <instance part="SUPPLY4" gate="G$1" x="101.6" y="137.16"/>
 <instance part="GND8" gate="1" x="127" y="114.3"/>
 <instance part="CHARGE" gate="G$1" x="109.22" y="127" rot="R90"/>
@@ -15505,9 +15477,6 @@ Production Part - 8199
 <instance part="GND10" gate="1" x="200.66" y="157.48"/>
 <instance part="R5" gate="G$1" x="182.88" y="172.72"/>
 <instance part="U$3" gate="1" x="167.64" y="137.16"/>
-<instance part="C4" gate="G$1" x="83.82" y="121.92"/>
-<instance part="GND11" gate="1" x="83.82" y="111.76"/>
-<instance part="U$4" gate="1" x="83.82" y="129.54"/>
 <instance part="OUT" gate="G$1" x="215.9" y="134.62" rot="MR0"/>
 <instance part="C3" gate="G$1" x="71.12" y="121.92"/>
 <instance part="U$6" gate="1" x="71.12" y="129.54"/>
@@ -15516,7 +15485,6 @@ Production Part - 8199
 <instance part="IC1" gate="G$1" x="132.08" y="76.2"/>
 <instance part="R1" gate="G$1" x="175.26" y="86.36" rot="MR270"/>
 <instance part="R2" gate="G$1" x="175.26" y="71.12" rot="MR270"/>
-<instance part="C5" gate="G$1" x="93.98" y="73.66" rot="MR0"/>
 <instance part="C6" gate="G$1" x="185.42" y="78.74" rot="MR0"/>
 <instance part="C7" gate="G$1" x="154.94" y="93.98" rot="MR90"/>
 <instance part="C8" gate="G$1" x="195.58" y="78.74" rot="MR0"/>
@@ -15536,6 +15504,7 @@ Production Part - 8199
 <instance part="SUPPLY6" gate="G$1" x="43.18" y="66.04"/>
 <instance part="SUPPLY9" gate="G$1" x="68.58" y="66.04"/>
 <instance part="D3" gate="G$1" x="60.96" y="53.34"/>
+<instance part="C5" gate="G$1" x="93.98" y="73.66" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -15545,11 +15514,6 @@ Production Part - 8199
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="116.84" x2="45.72" y2="114.3" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C2" gate="G$1" pin="2"/>
-<pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="58.42" y1="116.84" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
@@ -15574,11 +15538,6 @@ Production Part - 8199
 <junction x="200.66" y="162.56"/>
 </segment>
 <segment>
-<pinref part="C4" gate="G$1" pin="2"/>
-<pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="83.82" y1="116.84" x2="83.82" y2="114.3" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="USB1" gate="G$1" pin="GND"/>
 <wire x1="63.5" y1="152.4" x2="66.04" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
@@ -15596,7 +15555,6 @@ Production Part - 8199
 <wire x1="203.2" y1="137.16" x2="205.74" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C5" gate="G$1" pin="-"/>
 <wire x1="93.98" y1="50.8" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="93.98" y1="53.34" x2="93.98" y2="68.58" width="0.1524" layer="91"/>
@@ -15632,6 +15590,7 @@ Production Part - 8199
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="203.2" y1="50.8" x2="203.2" y2="53.34" width="0.1524" layer="91"/>
 <junction x="203.2" y="53.34"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -15639,11 +15598,6 @@ Production Part - 8199
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="SUPPLY7" gate="G$1" pin="5V"/>
 <wire x1="45.72" y1="129.54" x2="45.72" y2="127" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C2" gate="G$1" pin="1"/>
-<pinref part="SUPPLY8" gate="G$1" pin="5V"/>
-<wire x1="58.42" y1="129.54" x2="58.42" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY4" gate="G$1" pin="5V"/>
@@ -15712,11 +15666,6 @@ Production Part - 8199
 <junction x="175.26" y="172.72"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="1" pin="VBATT+"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="129.54" x2="83.82" y2="127" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="IC2" gate="A" pin="VBAT"/>
 <wire x1="165.1" y1="134.62" x2="167.64" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="1" pin="VBATT+"/>
@@ -15747,7 +15696,6 @@ Production Part - 8199
 </net>
 <net name="VIN" class="0">
 <segment>
-<pinref part="C5" gate="G$1" pin="+"/>
 <wire x1="93.98" y1="78.74" x2="93.98" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="93.98" x2="116.84" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="93.98" x2="93.98" y2="93.98" width="0.1524" layer="91"/>
@@ -15765,6 +15713,7 @@ Production Part - 8199
 <wire x1="116.84" y1="78.74" x2="119.38" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="VIN"/>
 <wire x1="93.98" y1="93.98" x2="93.98" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="SUPPLY9" gate="G$1" pin="VIN"/>
